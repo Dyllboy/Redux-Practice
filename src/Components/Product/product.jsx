@@ -8,8 +8,7 @@ const ProductComponent = ({ product }) => {
     const dispatch = useDispatch();
 
     const addItemHandler = () => {
-        console.log(product)
-        dispatch(cartActions.addItemToCart(product))
+        dispatch(cartActions.addItemToCart(product));
     }
 
     return (

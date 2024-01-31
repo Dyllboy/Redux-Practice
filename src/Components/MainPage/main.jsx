@@ -11,7 +11,7 @@ const MainPage = () => {
         <>
             <NavBar />
             <div className='container'>
-                <ul>{product.map(p => <ProductComponent key={p.name} product={p}></ProductComponent>)}</ul>
+                <ul>{product.map(p => <ProductComponent key={p.name} product={p}/>)}</ul>
             </div>
         </>
     );
